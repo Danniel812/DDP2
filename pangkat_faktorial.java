@@ -12,12 +12,11 @@ class pangkat_faktorial{
             hasil_fact *= temp_n;
             temp_n--;
         }
-        
         long hasil_pangkat = 1;
         for(int i = 0; i < m; i++) hasil_pangkat *= n;
 
         System.out.println("n faktorial = " + hasil_fact);
         System.out.println("n pangkat m = " + hasil_pangkat);
-
+        // Halo ini berubah di branch
     }
 }
